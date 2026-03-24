@@ -1,9 +1,9 @@
-# Displaying all local branches and the current active branch
 vinitu-gt:~/project$ git branch
+  bug-fix-revert
   bug-fix-typo
 * main
 
-# Displaying branches with their last commit message
 vinitu-gt:~/project$ git branch -v
-  bug-fix-typo b3c1d2e Fix typo in README documentation
-* main         52a8ffa Add simple interest calculation script
+  bug-fix-revert c4d2e1a Revert unwanted changes
+  bug-fix-typo   b3c1d2e Fix typo in README documentation
+* main           52a8ffa Add simple interest calculation script
