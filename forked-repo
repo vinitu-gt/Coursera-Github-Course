@@ -1,7 +1,7 @@
-curl -s https://api.github.com/repos/vinitu-gt/Coursera-Github-Course | grep -E "full_name|fork\":|parent"
+curl -s https://api.github.com/repos/vinitu-gt/github-final-project | grep -E "full_name|fork\":|parent"
 
 Output:
-  "full_name": "vinitu-gt/Coursera-Github-Course",
+  "full_name": "vinitu-gt/github-final-project",
   "fork": true,
   "parent": {
     "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
